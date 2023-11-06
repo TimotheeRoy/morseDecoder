@@ -1,0 +1,68 @@
+body{
+    background-color: #fdd8d0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    border-radius: 30px;
+}
+
+h1{ 
+    color: white;
+    border: 2px solid #e74c34;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #e74c34;
+}
+
+h4{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+input{
+    border: 1px solid #e74c34;
+    border-radius: 30px;
+    padding: 8px;
+    display: block;
+    width: 100%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin: 5px;
+}
+
+span{
+    color: rgba(0, 0, 0, 0.5);
+    padding: 2px;
+}
+
+.donate{
+    position: absolute;
+    bottom: 80px;
+    left: 10px;
+    width: 90% ;
+}
+
+#btn{
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    padding: 5px 10px;
+}
+
+button{
+    border-radius: 20px;
+    padding: 10px;
+}
+
+button:hover{
+    background-color: gold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#thanks{
+    position: absolute;
+    bottom: -80px;
+    width: 100%;
+}

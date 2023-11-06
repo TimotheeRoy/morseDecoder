@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traducteur réversible latin-morse</title>
+    <link rel="stylesheet" href="exo4.css">
+</head>
+<body> 
+    <h1>Morse decoder</h1>
+    <img src="https://www.primante3d.com/wp-content/uploads/2020/11/morse-impression3d.jpg" alt="un morse" width="300">
+
+    <div class="latin">
+        <h4 for="Latin">Latin to translate :</h4>
+        <input type="text" id="latinText" placeholder="Hello world"> 
+        <span id="translatedLatin">Morse translation</span>
+    </div>
+    
+    <div class="morse">
+        <h4 for="Morse">Morse to translate :</h4>
+        <input type="text" id="morseText" placeholder=".... . .-.. .-.. --- /.-- --- .-. .-.. -..">
+        <span id="translatedMorse">Latin translation</span>
+    </div>
+
+    <div class="donate">
+        <p>Buy me a coffe ☕ :</p>
+        <button id="btn">Donne la moula</button>
+        <p id="thanks"></p>
+    </div>
+    
+    <script src="exo4.js"></script>
+</body>
+</html>
